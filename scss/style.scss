@@ -1,0 +1,95 @@
+//variables
+@import "utilities/variables"; 
+
+
+
+body{
+    margin-bottom: 100px;
+    background-image: linear-gradient($color-principal, $color-secundario);
+
+
+
+//header
+
+header{
+    height: 85px;
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: $color-principal; 
+    h1{  
+        text-align: center;
+        color: whitesmoke;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: underline;
+    
+}
+    .row{
+        .navbar nabvar-expand-lg col-12{
+            background-color: $color-complementario;
+        }
+        .container{
+            .navbar-toggler{
+                type: button;
+                data-bs-toggle: collapse;
+                data-bs-target: navbar SupportedContent;
+                aria-expanded: false;
+                aria-label: Toglle navigation;
+                .navbar-toggler-icon{
+                    }
+            }
+            #navarSupportedContent{
+                .navbar-nav mx-auto mb-2 mb-lg-0{
+                    .nav-item{
+                        .nav-link active{
+                            color: white 
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+//main
+
+main{
+    margin-top: 200px;
+    margin-bottom: 400px;
+    display: grid;
+    grid-template-areas: "tituloMain tituloMain"
+                        "parrafo parrafo";
+    .tituloMain{
+        grid-area: tituloMain;
+        text-align: center;
+    }
+    div{
+        .parrafo{
+            grid-area: parrafo;
+            text-align: center;
+        }
+    }
+    div{
+
+    .imagen{
+        .imagen1{
+
+        }
+    }
+    }
+}
+
+//footer
+
+footer{
+    text-align: center;
+    background-color: $color-complementario2;
+    h3{
+
+    }
+    h4{
+
+    }
+}
+}

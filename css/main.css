@@ -1,0 +1,38 @@
+body {
+  margin-bottom: 100px;
+  background-image: linear-gradient(#E5E3C9, #B4CFB0); }
+  body header {
+    height: 85px;
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: #E5E3C9; }
+    body header h1 {
+      text-align: center;
+      color: whitesmoke;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-decoration: underline; }
+    body header .row .navbar nabvar-expand-lg col-12 {
+      background-color: #94B49F; }
+    body header .row .container .navbar-toggler {
+      type: button;
+      data-bs-toggle: collapse;
+      data-bs-target: navbar SupportedContent;
+      aria-expanded: false;
+      aria-label: Toglle navigation; }
+    body header .row .container #navarSupportedContent .navbar-nav mx-auto mb-2 mb-lg-0 .nav-item .nav-link active {
+      color: white; }
+  body main {
+    margin-top: 200px;
+    margin-bottom: 400px;
+    display: grid;
+    grid-template-areas: "tituloMain tituloMain" "parrafo parrafo"; }
+    body main .tituloMain {
+      grid-area: tituloMain;
+      text-align: center; }
+    body main div .parrafo {
+      grid-area: parrafo;
+      text-align: center; }
+  body footer {
+    text-align: center;
+    background-color: #789395; }
